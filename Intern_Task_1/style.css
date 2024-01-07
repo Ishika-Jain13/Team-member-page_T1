@@ -1,0 +1,102 @@
+html,body{
+  margin:0;
+  padding:0;
+}
+.page_break{
+  max-height:100px; 
+  height: 100px;
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-content: space-around;
+  align-items: center;
+  justify-content: space-evenly;
+ }
+.page_break .shape{
+  height: 55%;
+  width: 15%;
+  background-color:rgb(177, 66, 127);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 40% 50%);
+  position: absolute;
+  right: 0;
+}
+.page_break .shape1{
+  height: 55%;
+  width: 15%;
+  background-color:rgb(177, 66, 127);
+  clip-path: polygon(100% 0, 60% 50%, 100% 100%, 0 100%, 0 0);
+  position: absolute;
+  left: 0;
+}
+.header{
+  text-align: center;
+  margin:auto;
+  width: 80%;
+  margin-top:20px;
+  padding: 10px;
+}
+.header .text-heading{
+  height: 30px;
+  width:150px; 
+}
+.text-heading{
+  display: inline-block;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 5px;
+  border-radius:5%;
+  color:white;
+  text-align: center;
+  background-color: rgb(177, 66, 127);
+}
+.header .text-body{
+  margin: 20px;
+  text-align: center;
+}
+.text-update{
+  width:250px;
+}
+.horizontal_line{
+  width:80%;
+  margin-top: 20px;
+  border-top: 2px dashed rgb(177, 66, 127);
+}
+.container{
+  text-align: center;
+  
+}
+.sub_heading{
+  margin: 20px;
+  font-weight: bold;
+}
+.grid-container img{
+  height: 80px;
+  width: 80px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.grid-container{
+ display: flex;
+ flex-direction: column;
+ padding: 20px;
+
+}
+.div-top{
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 40px;
+  gap:10px;
+}
+.div-bottom{
+  display: flex;
+  justify-content: space-evenly;
+}
+.designation{
+  color: gray;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.grid-text{
+  margin-top: 10px;
+}
+
